@@ -3,7 +3,7 @@ const oracledb = require('oracledb');
 const dbConfig = {
   user: 'UsuarioSUPER_Admin',
   password: 'useradminpassword',
-  connectString: 'localhost/orcl' // Ajusta según tu configuración
+  connectString: 'localhost:1521/orcl' // Ajusta según tu configuración
 };
 
 async function getConnection() {
